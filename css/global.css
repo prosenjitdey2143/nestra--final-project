@@ -1,0 +1,91 @@
+@font-face {
+    font-family: aeonik;
+    src: url(../assets/fonts/Aeonik-Regular.otf);
+}
+:root{
+    --global-font-size:aeonik;
+    --body-bg:#17140c;
+    --theme-color:#F6C557;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+html, body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  
+}
+body{
+    font-family:var(--global-font-size);
+    font-size: 18px;
+    line-height: 1.55;
+    background-color:var(--body-bg) ;
+    color: #FFFFFF;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+}
+ul{
+    list-size: none;
+}
+.container{
+    max-width:1344px ;
+}
+
+/* h1  */
+.title1{
+    font-size: 128px;
+    font-weight:400;
+    letter-spacing: -4%;
+}
+.sub-heading{
+    font-size: 48px;
+    font-weight:300;
+
+}
+/* h2  */
+.title3{
+    font-size: 40px;
+    font-weight: 400;
+}
+/* h3  */
+.title3{  
+    font-size: 35px;
+    font-weight: 400;
+}
+.title4{  
+    font-size: 25px;
+    font-weight: 400;
+}
+.subtitle1{
+    font-size: 25px;
+    font-weight:700;
+}
+.subtitle2{
+    font-size: 16px;
+    font-weight:700;
+}
+.cmn-btn{
+    display: flex;
+justify-content: center;
+align-items: center;
+width: fit-content;
+    padding: 6px;
+    border: 1px solid rgba(255,255,255,25%);
+}
+.cmn-btn>span{
+    padding: 0px 40px 0px 30px;
+}
+.cmn-btn>.btn-icon{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 22px;
+background: var(--theme-color);
+}

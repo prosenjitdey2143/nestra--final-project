@@ -1,11 +1,155 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nestra</title>
-</head>
-<body>
-    
-</body>
+    <!-- Bootstrap CSS  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <!-- bootstrap icons  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <!-- font awesome cdn  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/brands.min.css"
+      integrity="sha512-WxpJXPm/Is1a/dzEdhdaoajpgizHQimaLGL/QqUIAjIihlQqlPQb1V9vkGs9+VzXD7rgI6O+UsSKl4u5K36Ydw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- global css  -->
+    <link rel="stylesheet" href="./css/global.css" />
+    <!-- page based css - home  -->
+    <link rel="stylesheet" href="./css/home.css" />
+  </head>
+
+  <body>
+    <!-- header section  -->
+    <header>
+      <div
+        class="hdr-info d-flex flex-wrap justify-content-between align-items-center"
+      >
+        <div class="hdr-top-left">
+          <svg
+            width="21"
+            height="21"
+            viewBox="0 0 21 21"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M14.6484 10.8984L19.0234 12.7734C19.7266 13.0469 20.1172 13.7891 19.9609 14.5312L19.0234 18.9062C18.8672 19.6094 18.2031 20.1562 17.5 20.1562C17.2266 20.1562 16.9922 20.1172 16.7578 20.1172C16.3672 20.1172 15.9766 20.0781 15.625 20.0391C6.83594 19.1016 0 11.6797 0 2.61719C0 1.91406 0.507812 1.25 1.21094 1.09375L5.58594 0.15625C6.32812 0 7.07031 0.390625 7.34375 1.09375L9.21875 5.46875C9.49219 6.09375 9.33594 6.83594 8.78906 7.26562L7.1875 8.59375C8.24219 10.3906 9.72656 11.875 11.5234 12.9297L12.8516 11.3281C13.2812 10.7812 14.0234 10.625 14.6484 10.8984ZM17.2266 18.2422L18.0469 14.375L14.1406 12.6953L13.0078 14.1016C12.4219 14.8047 11.4062 15 10.5859 14.5312C8.51562 13.3203 6.79688 11.6016 5.58594 9.53125C5.11719 8.71094 5.3125 7.69531 6.01562 7.10938L7.42188 5.97656L5.74219 2.07031L1.875 2.89062C1.99219 11.3281 8.78906 18.125 17.2266 18.2422Z"
+              fill="#FEB408"
+            />
+          </svg>
+          <a href="tel:+8466- 567-8899">+8466- 567-8899</a>
+
+          <svg
+            width="20"
+            height="15"
+            viewBox="0 0 20 15"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M2.5 1.875C2.14844 1.875 1.875 2.1875 1.875 2.5V3.39844L8.59375 8.90625C9.41406 9.57031 10.5469 9.57031 11.3672 8.90625L18.125 3.39844V2.5C18.125 2.1875 17.8125 1.875 17.5 1.875H2.5ZM1.875 5.82031V12.5C1.875 12.8516 2.14844 13.125 2.5 13.125H17.5C17.8125 13.125 18.125 12.8516 18.125 12.5V5.82031L12.5781 10.3516C11.0547 11.6016 8.90625 11.6016 7.42188 10.3516L1.875 5.82031ZM0 2.5C0 1.13281 1.09375 0 2.5 0H17.5C18.8672 0 20 1.13281 20 2.5V12.5C20 13.9062 18.8672 15 17.5 15H2.5C1.09375 15 0 13.9062 0 12.5V2.5Z"
+              fill="#FEB408"
+            />
+          </svg>
+
+          <a href="mailto:support@example.com">support@example.com</a>
+        </div>
+        <div class="hdr-top-center">
+          100% verified properties, no hidden cost
+        </div>
+        <div class="hdr-top-right">
+          <a href="#">stores</a>
+          <a href="#">help</a>
+          <a href="#">about</a>
+        </div>
+      </div>
+      <div class="hdr-main">
+        <nav class="navbar navbar-expand-lg py-0">
+          <!-- Logo -->
+          <a class="brand-logo" href="#">
+            <img src="./assets/images/logo.png" alt="brand logo" />
+          </a>
+
+          <!-- Toggler -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#mainNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Offcanvas -->
+          <!-- <div class="offcanvas offcanvas-end" id="mainNav"> -->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Properties</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <!-- </div> -->
+          <!-- Right Icons -->
+          <div class="nav-icons">
+            <a href="#"><i class="bi bi-search"></i></a>
+            <a href="#"><i class="bi bi-person"></i></a>
+            <a href="#"><i class="bi bi-heart"></i></a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+    <!-- banner section  -->
+     <section class="banner d-flex justify-content-center align-items-end">
+        <div class="bnr-desc">
+            <h1 class="title1">We deliver the <span>ideal</span><br>home to you!</h1>
+            <p>Without wasting time looking for a parking space. Jostling in <br>
+queues, frowning consultants and unloading.</p>
+<a href="#" class="cmn-btn"><span>Explore now</span> <span class="btn-icon">
+<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M14.2769 0C14.6762 1.56731e-08 14.9998 0.323846 15 0.723022V13.1422C15 13.5415 14.6763 13.8652 14.2769 13.8652C13.8778 13.865 13.5539 13.5413 13.5539 13.1422V9.97897L13.5341 7.40462C13.5205 5.65548 11.4683 4.76323 10.1822 5.87314L10.0608 5.98682L10.0587 5.98894L1.23376 14.7888C0.951113 15.0706 0.49332 15.0705 0.211316 14.7881C-0.0705862 14.5054 -0.0705262 14.0469 0.212022 13.765L9.03482 4.96654C10.324 3.67037 9.41119 1.46276 7.58306 1.45593L4.95988 1.44675L4.95917 1.44604H1.85796C1.45862 1.44604 1.1349 1.12234 1.1349 0.723022C1.13506 0.323845 1.45872 -7.83653e-08 1.85796 0H14.2769Z" fill="black"/>
+</svg>
+</span></a>
+        </div>
+        <div class="bnr-left-dsgn">
+            <img src="./assets/images/bnr-left-desg.png" alt="banner left design" srcset="">
+        </div>
+        <div class="bnr-right-dsgn">
+            <img src="./assets/images/bnr-right-desg.png" alt="banner right design" srcset="">
+        </div>
+     </section>
+    </main>
+
+  </body>
+  <!-- Bootstrap Js  -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+    integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+    crossorigin="anonymous"
+  ></script>
 </html>
