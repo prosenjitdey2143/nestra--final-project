@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nestra</title>
+    <!-- Bootstrap CSS  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <!-- bootstrap icons  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <!-- font awesome cdn  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- global css  -->
+    <link rel="stylesheet" href="./css/global.css" />
+    <!-- About custome css  -->
+    <link rel="stylesheet" href="./css/account.css" />
+  </head>
+  <body>
+    <header>
+      <div
+        class="hdr-info d-flex flex-wrap justify-content-between align-items-center"
+      >
+        <div class="hdr-top-left">
+          <svg
+            width="21"
+            height="21"
+            viewBox="0 0 21 21"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M14.6484 10.8984L19.0234 12.7734C19.7266 13.0469 20.1172 13.7891 19.9609 14.5312L19.0234 18.9062C18.8672 19.6094 18.2031 20.1562 17.5 20.1562C17.2266 20.1562 16.9922 20.1172 16.7578 20.1172C16.3672 20.1172 15.9766 20.0781 15.625 20.0391C6.83594 19.1016 0 11.6797 0 2.61719C0 1.91406 0.507812 1.25 1.21094 1.09375L5.58594 0.15625C6.32812 0 7.07031 0.390625 7.34375 1.09375L9.21875 5.46875C9.49219 6.09375 9.33594 6.83594 8.78906 7.26562L7.1875 8.59375C8.24219 10.3906 9.72656 11.875 11.5234 12.9297L12.8516 11.3281C13.2812 10.7812 14.0234 10.625 14.6484 10.8984ZM17.2266 18.2422L18.0469 14.375L14.1406 12.6953L13.0078 14.1016C12.4219 14.8047 11.4062 15 10.5859 14.5312C8.51562 13.3203 6.79688 11.6016 5.58594 9.53125C5.11719 8.71094 5.3125 7.69531 6.01562 7.10938L7.42188 5.97656L5.74219 2.07031L1.875 2.89062C1.99219 11.3281 8.78906 18.125 17.2266 18.2422Z"
+              fill="#FEB408"
+            />
+          </svg>
+          <a href="tel:+8466- 567-8899">+8466- 567-8899</a>
+
+          <svg
+            width="20"
+            height="15"
+            viewBox="0 0 20 15"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M2.5 1.875C2.14844 1.875 1.875 2.1875 1.875 2.5V3.39844L8.59375 8.90625C9.41406 9.57031 10.5469 9.57031 11.3672 8.90625L18.125 3.39844V2.5C18.125 2.1875 17.8125 1.875 17.5 1.875H2.5ZM1.875 5.82031V12.5C1.875 12.8516 2.14844 13.125 2.5 13.125H17.5C17.8125 13.125 18.125 12.8516 18.125 12.5V5.82031L12.5781 10.3516C11.0547 11.6016 8.90625 11.6016 7.42188 10.3516L1.875 5.82031ZM0 2.5C0 1.13281 1.09375 0 2.5 0H17.5C18.8672 0 20 1.13281 20 2.5V12.5C20 13.9062 18.8672 15 17.5 15H2.5C1.09375 15 0 13.9062 0 12.5V2.5Z"
+              fill="#FEB408"
+            />
+          </svg>
+
+          <a href="mailto:support@example.com">support@example.com</a>
+        </div>
+        <div class="hdr-top-center">
+          100% verified properties, no hidden cost
+        </div>
+        <div class="hdr-top-right">
+          <a href="#">stores</a>
+          <a href="#">help</a>
+          <a href="#">about</a>
+        </div>
+      </div>
+      <div class="hdr-main">
+        <nav class="navbar navbar-expand-lg py-0">
+          <!-- Logo -->
+          <a class="brand-logo" href="#">
+            <img src="./assets/images/home/logo.png" alt="brand logo" />
+          </a>
+
+          <!-- Toggler -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#mainNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Offcanvas -->
+          <!-- <div class="offcanvas offcanvas-end" id="mainNav"> -->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Properties</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <!-- </div> -->
+          <!-- Right Icons -->
+          <div class="nav-icons">
+            <a href="#"><i class="bi bi-search"></i></a>
+            <a href="#"><i class="bi bi-person"></i></a>
+            <a href="#"><i class="bi bi-heart"></i></a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!-- banner section  -->
+      <section class="banner d-flex justify-content-center align-items-end">
+        <div class="bnr-desc">
+          <h1 class="title1">Account</h1>
+          <div class="bnr-link">
+            <a href="index.html">Home</a>
+            <a href="about.html" class="active-link">Account</a>
+          </div>
+        </div>
+      </section>
+      <section class="auth-sec">
+        <div class="container">
+          <div class="row">
+            <!-- LOGIN -->
+            <div class="col-lg-6">
+              <div class="auth-box">
+                <form action="#" method="post">
+                <div class="title3">Login</div>
+                <div class="input-group">
+                  <label class="auth-label" name="login-email" for="login-email">
+                    Username or email address <span>*</span>
+                  </label>
+                  <input
+                    type="text"
+                    placeholder="Enter your username or email address ....."
+                    id="login-email"
+                  />
+                </div>
+
+                <label class="auth-label" name="password" for="password"> Password <span>*</span> </label>
+                <div class="auth-password">
+                  <input
+                    type="password"
+                    placeholder="Enter your password ....."
+                    id="password"
+                  />
+                  <span class="eye-icon">
+                    <svg
+                      width="17"
+                      height="14"
+                      viewBox="0 0 17 14"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M3.7793 9.66797C5.00977 10.8691 6.5625 11.7188 8.4375 11.7188C10.2832 11.7188 11.8359 10.8691 13.0664 9.66797C14.1211 8.67188 14.8828 7.4707 15.3223 6.5625C14.8828 5.68359 14.1211 4.48242 13.0664 3.48633C11.8359 2.28516 10.2832 1.40625 8.4375 1.40625C6.5625 1.40625 5.00977 2.28516 3.7793 3.48633C2.72461 4.48242 1.96289 5.68359 1.52344 6.5625C1.96289 7.4707 2.72461 8.67188 3.7793 9.66797ZM8.4375 13.125C3.7793 13.125 0.878906 8.75977 0 6.5625C0.878906 4.39453 3.7793 0 8.4375 0C13.0664 0 15.9961 4.39453 16.875 6.5625C15.9961 8.75977 13.0664 13.125 8.4375 13.125ZM8.4375 8.90625C9.72656 8.90625 10.7812 7.88086 10.7812 6.5625C10.7812 5.27344 9.72656 4.21875 8.4375 4.21875C8.26172 4.21875 8.11523 4.24805 7.96875 4.27734L8.4375 6.5625L6.12305 6.12305C6.09375 6.26953 6.09375 6.41602 6.09375 6.5625C6.09375 7.88086 7.11914 8.90625 8.4375 8.90625ZM4.6875 6.5625C4.6875 6.32812 4.6875 6.06445 4.74609 5.83008C5.03906 4.33594 6.21094 3.19336 7.67578 2.90039C7.93945 2.8418 8.17383 2.8125 8.4375 2.8125C10.4883 2.8125 12.1875 4.51172 12.1875 6.5625C12.1875 8.64258 10.4883 10.3125 8.4375 10.3125C6.35742 10.3125 4.6875 8.64258 4.6875 6.5625Z"
+                        fill="white"
+                        fill-opacity="0.4"
+                      />
+                    </svg>
+                  </span>
+                </div>
+
+                <div class="auth-row">
+                  <div class="checkbox-wrap">
+                    <div class="checkbox-inp-group">
+<input type="checkbox" />
+                    <label class="remember"> Remember me </label>
+                    </div>
+                    <a href="#" class="forgot">Lost your password?</a>
+                  </div>
+                  <button class="cmn-btn" type="submit">
+                    <span>Explore now</span>
+            <span class="btn-icon">
+              <svg
+                width="15"
+                height="15"
+                viewBox="0 0 15 15"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.2769 0C14.6762 1.56731e-08 14.9998 0.323846 15 0.723022V13.1422C15 13.5415 14.6763 13.8652 14.2769 13.8652C13.8778 13.865 13.5539 13.5413 13.5539 13.1422V9.97897L13.5341 7.40462C13.5205 5.65548 11.4683 4.76323 10.1822 5.87314L10.0608 5.98682L10.0587 5.98894L1.23376 14.7888C0.951113 15.0706 0.49332 15.0705 0.211316 14.7881C-0.0705862 14.5054 -0.0705262 14.0469 0.212022 13.765L9.03482 4.96654C10.324 3.67037 9.41119 1.46276 7.58306 1.45593L4.95988 1.44675L4.95917 1.44604H1.85796C1.45862 1.44604 1.1349 1.12234 1.1349 0.723022C1.13506 0.323845 1.45872 -7.83653e-08 1.85796 0H14.2769Z"
+                  fill="black"
+                />
+              </svg> </span
+          >
+                  </button>
+                </div>
+                </form>
+              </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="auth-box">
+                  <form action="#" method="post">
+                  <div class="title3">Register</div>
+                  
+                  <label class="auth-label" name="register-email" for="register-email">
+                    Email address <span>*</span>
+                  </label>
+                  <input
+                    type="email"
+                    placeholder="Enter your email address ......."
+                    id="register-email"
+                  />
+
+                  <p class="auth-note">
+                    A password will be sent to your email address.
+                  </p>
+
+                  <p class="auth-privacy">
+                    Your personal data will be used to support your experience
+                    throughout this website, to manage access to your account,
+                    and for other purposes described in our privacy policy.
+                  </p>
+
+                  <button class=" cmn-btn" type="submit">
+                    <span>Register Yourself</span>
+            <span class="btn-icon">
+              <svg
+                width="15"
+                height="15"
+                viewBox="0 0 15 15"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.2769 0C14.6762 1.56731e-08 14.9998 0.323846 15 0.723022V13.1422C15 13.5415 14.6763 13.8652 14.2769 13.8652C13.8778 13.865 13.5539 13.5413 13.5539 13.1422V9.97897L13.5341 7.40462C13.5205 5.65548 11.4683 4.76323 10.1822 5.87314L10.0608 5.98682L10.0587 5.98894L1.23376 14.7888C0.951113 15.0706 0.49332 15.0705 0.211316 14.7881C-0.0705862 14.5054 -0.0705262 14.0469 0.212022 13.765L9.03482 4.96654C10.324 3.67037 9.41119 1.46276 7.58306 1.45593L4.95988 1.44675L4.95917 1.44604H1.85796C1.45862 1.44604 1.1349 1.12234 1.1349 0.723022C1.13506 0.323845 1.45872 -7.83653e-08 1.85796 0H14.2769Z"
+                  fill="black"
+                />
+              </svg> </span
+          >
+                  </button>
+                  </form>
+                </div>
+              </div>
+          </div>
+        </div>
+        <!-- <div class="auth-left-pattern">
+          <img src="./assets/images/accont/Rotate.png" alt="">
+        </div>
+        <div class="auth-right-pattern">
+          <img src="./assets/images/accont/Rotate.png" alt="">
+        </div> -->
+      </section>
+    </main>
+    <footer class="footer-sec">
+
+  <!-- NEWSLETTER -->
+  <div class="newsletter-sec">
+    <div class="container">
+      <div class="newsletter-wrap text-center">
+
+        <div class="newsletter-subtitle">
+           Newsletter Signup
+        </div>
+
+        <div class="title2">
+          Sign up for exclusive offers from us
+        </div>
+
+        <form class="newsletter-form">
+          <input type="email" placeholder="Your email">
+          <button type="submit">
+            SUBSCRIBE <span>→</span>
+          </button>
+        </form>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER MAIN -->
+  <div class="footer-main">
+    <div class="container">
+      <div class="row">
+
+        <!-- BRAND -->
+        <div class="col-lg-3">
+          <div class="footer-brand">
+            <a class="footer-logo" href="index.html">
+              <img src="./assets/images/home/logo.png" alt="brand logo">
+            </a>
+
+            <p class="footer-text">
+              The Bathrooms hnice. is the leader of floor installation
+              and repair in the countryside diam nonummy ermod tempor
+              invidunt ut labore and efficient strategy.
+            </p>
+
+            
+              <a href="tel:+1875 456 489" class="footer-phone">
+                <div class="phone-logo">
+                  
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10.625 14.4531C8.51562 13.2422 6.75781 11.4844 5.54688 9.375L4.84375 8.125L5.85938 7.10938L7.14844 5.82031L5.70312 2.14844L1.875 2.8125C2.03125 11.2109 8.78906 17.9688 17.1484 18.125L17.8516 14.2969L14.1797 12.8516L12.8906 14.1406L11.875 15.1562L10.625 14.4531ZM20 13.125L18.75 20H17.5C7.8125 20 0 12.1875 0 2.5V1.25L6.875 0L9.375 6.25L7.1875 8.4375C8.24219 10.2734 9.72656 11.7578 11.5625 12.8125L13.75 10.625L20 13.125ZM10 1.875V0C15.5078 0 20 4.49219 20 10H18.125C18.125 5.54688 14.4531 1.875 10 1.875ZM11.25 10C10.5469 10 10 9.45312 10 8.75C10 8.08594 10.5469 7.5 11.25 7.5C11.9141 7.5 12.5 8.08594 12.5 8.75C12.5 9.45312 11.9141 10 11.25 10ZM14.375 10C14.375 7.61719 12.3828 5.625 10 5.625V3.75C13.4375 3.75 16.25 6.5625 16.25 10H14.375Z" fill="#F6C557"/>
+                  </svg>
+
+                </div>
+                <div class="phone-desc">
+                  <div class="phone-number">+ 1875 456 489</div>
+                  <div class="phone-label">Round-the-clock</div>
+                </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- PROPERTIES -->
+        <div class="col-lg-3">
+          <div class="footer-col">
+            <div class="footer-heading">
+              Our Properties
+            </div>
+
+            <ul class="footer-links">
+              <li>Villas</li>
+              <li>Flats</li>
+              <li>Apartments</li>
+              <li>Penthouses</li>
+              <li>Smart Homes</li>
+              <li>Duplexes</li>
+              <li>Row Houses</li>
+              <li>Waterfront Apartments</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- QUICK LINKS -->
+        <div class="col-lg-3">
+          <div class="footer-col">
+            <div class="footer-heading">
+              Quick links 
+            </div>
+
+            <ul class="footer-links">
+              <li>Home</li>
+              <li>About Us</li>
+              <li>Properties</li>
+              <li>Blog</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- CONTACT -->
+        <div class="col-lg-3">
+          <div class="footer-col">
+            <div class="footer-heading">
+              Contact 
+            </div>
+
+            <div class="footer-contact">
+              2872 Westheimer Rd. Santa Ana,<br>
+              Illinois 85486
+            </div>
+
+            <a href="mailto:support@example.com" class="footer-email">
+              support@example.com
+            </a>
+
+            <a href="tel+406 555-0120" class="footer-phone2">
+              + (406) 555-0120
+            </a>
+
+            <div class="footer-social">
+              <a href="http://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="http://www.linkedin.com"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="http://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+              <a href="http://www.pinterest.com"><i class="fa-brands fa-pinterest"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="copywrite">© Copyright 2025 Nestra. All rights reserved.</div>
+  </div>
+
+</footer>
+  </body>
+</html>

@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nestra</title>
+    <!-- Bootstrap CSS  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <!-- bootstrap icons  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <!-- font awesome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- global css  -->
+    <link rel="stylesheet" href="./css/global.css" />
+    <!-- About custome css  -->
+     <link rel="stylesheet" href="./css/contact.css">
+</head>
+<body>
+    <!-- header section  -->
+    <header>
+      <div
+        class="hdr-info d-flex flex-wrap justify-content-between align-items-center"
+      >
+        <div class="hdr-top-left">
+          <svg
+            width="21"
+            height="21"
+            viewBox="0 0 21 21"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M14.6484 10.8984L19.0234 12.7734C19.7266 13.0469 20.1172 13.7891 19.9609 14.5312L19.0234 18.9062C18.8672 19.6094 18.2031 20.1562 17.5 20.1562C17.2266 20.1562 16.9922 20.1172 16.7578 20.1172C16.3672 20.1172 15.9766 20.0781 15.625 20.0391C6.83594 19.1016 0 11.6797 0 2.61719C0 1.91406 0.507812 1.25 1.21094 1.09375L5.58594 0.15625C6.32812 0 7.07031 0.390625 7.34375 1.09375L9.21875 5.46875C9.49219 6.09375 9.33594 6.83594 8.78906 7.26562L7.1875 8.59375C8.24219 10.3906 9.72656 11.875 11.5234 12.9297L12.8516 11.3281C13.2812 10.7812 14.0234 10.625 14.6484 10.8984ZM17.2266 18.2422L18.0469 14.375L14.1406 12.6953L13.0078 14.1016C12.4219 14.8047 11.4062 15 10.5859 14.5312C8.51562 13.3203 6.79688 11.6016 5.58594 9.53125C5.11719 8.71094 5.3125 7.69531 6.01562 7.10938L7.42188 5.97656L5.74219 2.07031L1.875 2.89062C1.99219 11.3281 8.78906 18.125 17.2266 18.2422Z"
+              fill="#FEB408"
+            />
+          </svg>
+          <a href="tel:+8466- 567-8899">+8466- 567-8899</a>
+
+          <svg
+            width="20"
+            height="15"
+            viewBox="0 0 20 15"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M2.5 1.875C2.14844 1.875 1.875 2.1875 1.875 2.5V3.39844L8.59375 8.90625C9.41406 9.57031 10.5469 9.57031 11.3672 8.90625L18.125 3.39844V2.5C18.125 2.1875 17.8125 1.875 17.5 1.875H2.5ZM1.875 5.82031V12.5C1.875 12.8516 2.14844 13.125 2.5 13.125H17.5C17.8125 13.125 18.125 12.8516 18.125 12.5V5.82031L12.5781 10.3516C11.0547 11.6016 8.90625 11.6016 7.42188 10.3516L1.875 5.82031ZM0 2.5C0 1.13281 1.09375 0 2.5 0H17.5C18.8672 0 20 1.13281 20 2.5V12.5C20 13.9062 18.8672 15 17.5 15H2.5C1.09375 15 0 13.9062 0 12.5V2.5Z"
+              fill="#FEB408"
+            />
+          </svg>
+
+          <a href="mailto:support@example.com">support@example.com</a>
+        </div>
+        <div class="hdr-top-center">
+          100% verified properties, no hidden cost
+        </div>
+        <div class="hdr-top-right">
+          <a href="#">stores</a>
+          <a href="#">help</a>
+          <a href="#">about</a>
+        </div>
+      </div>
+      <div class="hdr-main">
+        <nav class="navbar navbar-expand-lg py-0">
+          <!-- Logo -->
+          <a class="brand-logo" href="#">
+            <img src="./assets/images/home/logo.png" alt="brand logo" />
+          </a>
+
+          <!-- Toggler -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#mainNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Offcanvas -->
+          <!-- <div class="offcanvas offcanvas-end" id="mainNav"> -->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Properties</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <!-- </div> -->
+          <!-- Right Icons -->
+          <div class="nav-icons">
+            <a href="#"><i class="bi bi-search"></i></a>
+            <a href="#"><i class="bi bi-person"></i></a>
+            <a href="#"><i class="bi bi-heart"></i></a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!-- banner section  -->
+      <section class="banner d-flex justify-content-center align-items-end">
+        <div class="bnr-desc">
+          <h1 class="title1">
+           Contact
+          </h1>
+          <div class="bnr-link">
+            <a href="index.html">Home</a>
+            <a href="about.html" class="active-link">Contact</a>
+          </div>
+          
+        </div>
+      </section>
+      <section class="contact-intro-sec">
+  <div class="container">
+    <div class="contact-intro-wrap text-center">
+
+      <h2 class="title2">
+        Get in touch with us
+      </h2>
+
+      <p class="contact-intro-text">
+        Get in touch to discuss your employee wellbeing needs today.
+        Please give us a call, drop us an email or fill out the contact
+        form and we’ll get back to you.
+      </p>
+
+    </div>
+  </div>
+</section>
+<section class="contact-info-sec">
+  <div class="container">
+    <div class="row text-center">
+
+      <!-- ADDRESS -->
+      <div class="col-lg-4 col-md-6">
+        <div class="contact-info-card ">
+          <div class="contact-icon">
+            
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="100" height="100" fill="url(#pattern0_446_2001)"/>
+<defs>
+<pattern id="pattern0_446_2001" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_446_2001" transform="scale(0.01)"/>
+</pattern>
+<image id="image0_446_2001" width="100" height="100" preserveAspectRatio="none" xlink:href="data:image/png;base64,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"/>
+</defs>
+</svg>
+
+          </div>
+          <h3 class="title3">Address</h3>
+          <p>
+            Head Office: 785 15th Street, Office 478 Berlin, De 81566
+          </p>
+          <a href="#" class="contact-link">Check Location</a>
+        </div>
+      </div>
+
+      <!-- GET IN TOUCH -->
+      <div class="col-lg-4 col-md-6">
+        <div class="contact-info-card">
+          <div class="contact-icon">
+            
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="100" height="100" fill="url(#pattern0_446_2010)"/>
+<defs>
+<pattern id="pattern0_446_2010" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_446_2010" transform="scale(0.01)"/>
+</pattern>
+<image id="image0_446_2010" width="100" height="100" preserveAspectRatio="none" xlink:href="data:image/png;base64,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"/>
+</defs>
+</svg>
+
+          </div>
+          <h3 class="title3">Get In Touch</h3>
+          <p>
+            Mobile: 0843 456 198<br>
+            Hotline: 1900 26886<br>
+          </p>
+          <a href="mailto:hello@hiice.com">E-mail: hello@hiice.com</a>
+        </div>
+      </div>
+
+      <!-- HOURS -->
+      <div class="col-lg-4 col-md-6">
+        <div class="contact-info-card">
+          <div class="contact-icon">
+            
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="100" height="100" fill="url(#pattern0_446_2019)"/>
+<defs>
+<pattern id="pattern0_446_2019" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_446_2019" transform="scale(0.01)"/>
+</pattern>
+<image id="image0_446_2019" width="100" height="100" preserveAspectRatio="none" xlink:href="data:image/png;base64,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"/>
+</defs>
+</svg>
+
+          </div>
+          <h3 class="title3">Hour of operation</h3>
+          <p>
+            Monday–Friday: 8am–5pm<br>
+            Saturday: 9am–<br>
+            Midday Sunday: Closed
+          </p>
+        </div>
+      </div>
+
+    </div>
+    <div class="map">
+            <iframe
+    src="https://www.google.com/maps?q=Berlin&output=embed"
+    width="100%"
+    loading="lazy">
+  </iframe>
+        </div>
+  </div>
+  <div class="contact-info-sec-pattern">
+          <img
+            src="./assets/images/home/dot-pattern.png"
+            alt="banner left design"
+            srcset=""
+          />
+    </div>
+</section>
+<section class="contact-form-sec">
+  <div class="container">
+    <div class="contact-form-wrap">
+
+      <!-- HEADER -->
+      <div class="contact-form-header text-center">
+        <div class="subtitle2">
+            Have an Query ?
+        </div>
+
+        <h2 class="title2">
+          Send A Message
+        </h2>
+      </div>
+
+      <!-- FORM -->
+      <form class="contact-form">
+        <div class="row">
+
+          <div class="col-md-6">
+            <input type="text" placeholder="Your Name">
+          </div>
+
+          <div class="col-md-6">
+            <input type="email" placeholder="Your Email">
+          </div>
+
+          <div class="col-12">
+            <input type="text" placeholder="Subject">
+          </div>
+
+          <div class="col-12">
+            <textarea placeholder="Message"></textarea>
+          </div>
+
+        </div>
+
+        <div class="contact-form-btn text-center">
+          <button type="submit" class="cmn-btn">
+            <span>Submit</span>
+            <span class="btn-icon">
+              <svg
+                width="15"
+                height="15"
+                viewBox="0 0 15 15"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.2769 0C14.6762 1.56731e-08 14.9998 0.323846 15 0.723022V13.1422C15 13.5415 14.6763 13.8652 14.2769 13.8652C13.8778 13.865 13.5539 13.5413 13.5539 13.1422V9.97897L13.5341 7.40462C13.5205 5.65548 11.4683 4.76323 10.1822 5.87314L10.0608 5.98682L10.0587 5.98894L1.23376 14.7888C0.951113 15.0706 0.49332 15.0705 0.211316 14.7881C-0.0705862 14.5054 -0.0705262 14.0469 0.212022 13.765L9.03482 4.96654C10.324 3.67037 9.41119 1.46276 7.58306 1.45593L4.95988 1.44675L4.95917 1.44604H1.85796C1.45862 1.44604 1.1349 1.12234 1.1349 0.723022C1.13506 0.323845 1.45872 -7.83653e-08 1.85796 0H14.2769Z"
+                  fill="black"
+                />
+              </svg> </span
+          >
+          </button>
+        </div>
+      </form>
+
+    </div>
+  </div>
+  <div class="contact-form-sec-pattern">
+          <img
+            src="./assets/images/home/dot-pattern.png"
+            alt="banner left design"
+            srcset=""
+          />
+    </div>
+</section>
+      </main>
+      <footer class="footer-sec">
+
+  <!-- NEWSLETTER -->
+  <div class="newsletter-sec">
+    <div class="container">
+      <div class="newsletter-wrap text-center">
+
+        <div class="newsletter-subtitle">
+           Newsletter Signup
+        </div>
+
+        <div class="title2">
+          Sign up for exclusive offers from us
+        </div>
+
+        <form class="newsletter-form">
+          <input type="email" placeholder="Your email">
+          <button type="submit">
+            SUBSCRIBE <span>→</span>
+          </button>
+        </form>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER MAIN -->
+  <div class="footer-main">
+    <div class="container">
+      <div class="row">
+
+        <!-- BRAND -->
+        <div class="col-lg-3">
+          <div class="footer-brand">
+            <a class="footer-logo" href="index.html">
+              <img src="./assets/images/home/logo.png" alt="brand logo">
+            </a>
+
+            <p class="footer-text">
+              The Bathrooms hnice. is the leader of floor installation
+              and repair in the countryside diam nonummy ermod tempor
+              invidunt ut labore and efficient strategy.
+            </p>
+
+            
+              <a href="tel:+1875 456 489" class="footer-phone">
+                <div class="phone-logo">
+                  
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10.625 14.4531C8.51562 13.2422 6.75781 11.4844 5.54688 9.375L4.84375 8.125L5.85938 7.10938L7.14844 5.82031L5.70312 2.14844L1.875 2.8125C2.03125 11.2109 8.78906 17.9688 17.1484 18.125L17.8516 14.2969L14.1797 12.8516L12.8906 14.1406L11.875 15.1562L10.625 14.4531ZM20 13.125L18.75 20H17.5C7.8125 20 0 12.1875 0 2.5V1.25L6.875 0L9.375 6.25L7.1875 8.4375C8.24219 10.2734 9.72656 11.7578 11.5625 12.8125L13.75 10.625L20 13.125ZM10 1.875V0C15.5078 0 20 4.49219 20 10H18.125C18.125 5.54688 14.4531 1.875 10 1.875ZM11.25 10C10.5469 10 10 9.45312 10 8.75C10 8.08594 10.5469 7.5 11.25 7.5C11.9141 7.5 12.5 8.08594 12.5 8.75C12.5 9.45312 11.9141 10 11.25 10ZM14.375 10C14.375 7.61719 12.3828 5.625 10 5.625V3.75C13.4375 3.75 16.25 6.5625 16.25 10H14.375Z" fill="#F6C557"/>
+                  </svg>
+
+                </div>
+                <div class="phone-desc">
+                  <div class="phone-number">+ 1875 456 489</div>
+                  <div class="phone-label">Round-the-clock</div>
+                </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- PROPERTIES -->
+        <div class="col-lg-3">
+          <div class="footer-col">
+            <div class="footer-heading">
+              Our Properties
+            </div>
+
+            <ul class="footer-links">
+              <li>Villas</li>
+              <li>Flats</li>
+              <li>Apartments</li>
+              <li>Penthouses</li>
+              <li>Smart Homes</li>
+              <li>Duplexes</li>
+              <li>Row Houses</li>
+              <li>Waterfront Apartments</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- QUICK LINKS -->
+        <div class="col-lg-3">
+          <div class="footer-col">
+            <div class="footer-heading">
+              Quick links 
+            </div>
+
+            <ul class="footer-links">
+              <li>Home</li>
+              <li>About Us</li>
+              <li>Properties</li>
+              <li>Blog</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- CONTACT -->
+        <div class="col-lg-3">
+          <div class="footer-col">
+            <div class="footer-heading">
+              Contact 
+            </div>
+
+            <div class="footer-contact">
+              2872 Westheimer Rd. Santa Ana,<br>
+              Illinois 85486
+            </div>
+
+            <a href="mailto:support@example.com" class="footer-email">
+              support@example.com
+            </a>
+
+            <a href="tel+406 555-0120" class="footer-phone2">
+              + (406) 555-0120
+            </a>
+
+            <div class="footer-social">
+              <a href="http://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="http://www.linkedin.com"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="http://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+              <a href="http://www.pinterest.com"><i class="fa-brands fa-pinterest"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="copywrite">© Copyright 2025 Nestra. All rights reserved.</div>
+  </div>
+
+</footer>
+</body>
+</html>
