@@ -1,264 +1,110 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nestra</title>
-  <!-- Bootstrap CSS  -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nestra</title>
+    <!-- Bootstrap CSS  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
 
-  <!-- font awesome cdn  -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font awesome cdn  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-  <!-- Swiper CDN -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
-  <!-- AOS CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
-    integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- global css  -->
-  <link rel="stylesheet" href="./css/global.css" />
-  <!-- page based css - home  -->
-  <link rel="stylesheet" href="./css/home.css" />
-</head>
-<body>
-   <!-- loader  -->
-  <div id="preloader">
-    <span class="loader"></span>
-  </div>
-  <!-- custome cursor -->
-  <div class="cursor-border"></div>
-  <div class="cursor"></div>
-  <header>
-      <div class="header-top position-relative">
-        <div class="container-big d-flex align-items-center">
-          <div class="left-box d-flex align-items-center">
-            <div class="phone d-flex align-items-center">
-              <svg width="21" height="40" viewBox="0 0 21 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M14.6484 21.2812L19.0234 23.1562C19.7266 23.4297 20.1172 24.1719 19.9609 24.9141L19.0234 29.2891C18.8672 29.9922 18.2031 30.5391 17.5 30.5391C17.2266 30.5391 16.9922 30.5 16.7578 30.5C16.3672 30.5 15.9766 30.4609 15.625 30.4219C6.83594 29.4844 0 22.0625 0 13C0 12.2969 0.507812 11.6328 1.21094 11.4766L5.58594 10.5391C6.32812 10.3828 7.07031 10.7734 7.34375 11.4766L9.21875 15.8516C9.49219 16.4766 9.33594 17.2188 8.78906 17.6484L7.1875 18.9766C8.24219 20.7734 9.72656 22.2578 11.5234 23.3125L12.8516 21.7109C13.2812 21.1641 14.0234 21.0078 14.6484 21.2812ZM17.2266 28.625L18.0469 24.7578L14.1406 23.0781L13.0078 24.4844C12.4219 25.1875 11.4062 25.3828 10.5859 24.9141C8.51562 23.7031 6.79688 21.9844 5.58594 19.9141C5.11719 19.0938 5.3125 18.0781 6.01562 17.4922L7.42188 16.3594L5.74219 12.4531L1.875 13.2734C1.99219 21.7109 8.78906 28.5078 17.2266 28.625Z"
-                  fill="#FEB408" />
-              </svg>
-              +8466- 567-8899
+    <!-- Swiper CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+    <!-- AOS CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- global css  -->
+    <link rel="stylesheet" href="./css/global.css" />
+    <!-- page based css - home  -->
+    <link rel="stylesheet" href="./css/blog.css" />
+  </head>
+  <body>
+    <!-- loader  -->
+    <div id="preloader">
+      <span class="loader"></span>
+    </div>
+    <!-- custome cursor -->
+    <div class="cursor-border"></div>
+    <div class="cursor"></div>
+    <div class="header-search-wrapper">
+      <header>
+        <div class="header-top position-relative">
+          <div class="container-big d-flex align-items-center">
+            <div class="left-box d-flex align-items-center">
+              <div class="phone d-flex align-items-center">
+                <svg
+                  width="21"
+                  height="40"
+                  viewBox="0 0 21 40"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14.6484 21.2812L19.0234 23.1562C19.7266 23.4297 20.1172 24.1719 19.9609 24.9141L19.0234 29.2891C18.8672 29.9922 18.2031 30.5391 17.5 30.5391C17.2266 30.5391 16.9922 30.5 16.7578 30.5C16.3672 30.5 15.9766 30.4609 15.625 30.4219C6.83594 29.4844 0 22.0625 0 13C0 12.2969 0.507812 11.6328 1.21094 11.4766L5.58594 10.5391C6.32812 10.3828 7.07031 10.7734 7.34375 11.4766L9.21875 15.8516C9.49219 16.4766 9.33594 17.2188 8.78906 17.6484L7.1875 18.9766C8.24219 20.7734 9.72656 22.2578 11.5234 23.3125L12.8516 21.7109C13.2812 21.1641 14.0234 21.0078 14.6484 21.2812ZM17.2266 28.625L18.0469 24.7578L14.1406 23.0781L13.0078 24.4844C12.4219 25.1875 11.4062 25.3828 10.5859 24.9141C8.51562 23.7031 6.79688 21.9844 5.58594 19.9141C5.11719 19.0938 5.3125 18.0781 6.01562 17.4922L7.42188 16.3594L5.74219 12.4531L1.875 13.2734C1.99219 21.7109 8.78906 28.5078 17.2266 28.625Z"
+                    fill="#FEB408"
+                  />
+                </svg>
+                +8466- 567-8899
+              </div>
+              <div class="email d-flex align-items-center">
+                <svg
+                  width="20"
+                  height="15"
+                  viewBox="0 0 20 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M2.5 1.875C2.14844 1.875 1.875 2.1875 1.875 2.5V3.39844L8.59375 8.90625C9.41406 9.57031 10.5469 9.57031 11.3672 8.90625L18.125 3.39844V2.5C18.125 2.1875 17.8125 1.875 17.5 1.875H2.5ZM1.875 5.82031V12.5C1.875 12.8516 2.14844 13.125 2.5 13.125H17.5C17.8125 13.125 18.125 12.8516 18.125 12.5V5.82031L12.5781 10.3516C11.0547 11.6016 8.90625 11.6016 7.42188 10.3516L1.875 5.82031ZM0 2.5C0 1.13281 1.09375 0 2.5 0H17.5C18.8672 0 20 1.13281 20 2.5V12.5C20 13.9062 18.8672 15 17.5 15H2.5C1.09375 15 0 13.9062 0 12.5V2.5Z"
+                    fill="#FEB408"
+                  />
+                </svg>
+                support@example.com
+              </div>
             </div>
-            <div class="email d-flex align-items-center">
-              <svg width="20" height="15" viewBox="0 0 20 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M2.5 1.875C2.14844 1.875 1.875 2.1875 1.875 2.5V3.39844L8.59375 8.90625C9.41406 9.57031 10.5469 9.57031 11.3672 8.90625L18.125 3.39844V2.5C18.125 2.1875 17.8125 1.875 17.5 1.875H2.5ZM1.875 5.82031V12.5C1.875 12.8516 2.14844 13.125 2.5 13.125H17.5C17.8125 13.125 18.125 12.8516 18.125 12.5V5.82031L12.5781 10.3516C11.0547 11.6016 8.90625 11.6016 7.42188 10.3516L1.875 5.82031ZM0 2.5C0 1.13281 1.09375 0 2.5 0H17.5C18.8672 0 20 1.13281 20 2.5V12.5C20 13.9062 18.8672 15 17.5 15H2.5C1.09375 15 0 13.9062 0 12.5V2.5Z"
-                  fill="#FEB408" />
-              </svg>
-              support@example.com
-            </div>
-          </div>
-          <div class="center-box position-absolute">
-            <!-- Swiper -->
-            <div class="swiper header-swiper">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  100% verified properties, no hidden cost
-                </div>
-                <div class="swiper-slide">Book now & save up to ₹1 Lakh!</div>
-                <div class="swiper-slide">
-                  Exclusive launch discount available!
-                </div>
-                <div class="swiper-slide">RERA approved projects only</div>
-                <div class="swiper-slide">
-                  Direct from builders — no brokerage
-                </div>
-                <div class="swiper-slide">
-                  Instant confirmation on every booking
+            <div class="center-box position-absolute">
+              <!-- Swiper -->
+              <div class="swiper header-swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    100% verified properties, no hidden cost
+                  </div>
+                  <div class="swiper-slide">Book now & save up to ₹1 Lakh!</div>
+                  <div class="swiper-slide">
+                    Exclusive launch discount available!
+                  </div>
+                  <div class="swiper-slide">RERA approved projects only</div>
+                  <div class="swiper-slide">
+                    Direct from builders — no brokerage
+                  </div>
+                  <div class="swiper-slide">
+                    Instant confirmation on every booking
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="header-right-box ms-auto">
-            <ul class="d-flex align-items-center">
-              <li><a href="">Stores</a></li>
-              <li><a href="">Help</a></li>
-              <li><a href="">About</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <nav class="navbar navbar-expand-lg position-relative">
-        <div class="container-big d-flex align-items-center">
-          <div class="left-box">
-            <a class="navbar-brand d-flex align-items-center" href="index.html">
-              <img src="./assets/images/home/logo.png" alt="" />
-            </a>
-          </div>
-          <button class="search-box position-relative icon-box search-box-sm">
-            <div>
-              <svg width="25" height="25" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="M13.75 2.75C19.8252 2.75 24.75 7.67487 24.75 13.75C24.75 16.4272 23.792 18.8797 22.2021 20.7871L26.958 25.543C27.3484 25.9334 27.3483 26.5665 26.958 26.957C26.5675 27.3475 25.9345 27.3475 25.5439 26.957L20.7881 22.2012C18.8805 23.7915 16.4277 24.75 13.75 24.75C7.67487 24.75 2.75 19.8252 2.75 13.75C2.75 7.67486 7.67486 2.75 13.75 2.75ZM13.75 4.75C8.77943 4.75 4.75 8.77943 4.75 13.75C4.75 18.7206 8.77943 22.75 13.75 22.75C18.7206 22.75 22.75 18.7206 22.75 13.75C22.75 8.77943 18.7206 4.75 13.75 4.75Z"
-                  fill="white" />
-              </svg>
-            </div>
-            <div class="icon-box-hover">
-              <svg width="25" height="25" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="M13.75 2.75C19.8252 2.75 24.75 7.67487 24.75 13.75C24.75 16.4272 23.792 18.8797 22.2021 20.7871L26.958 25.543C27.3484 25.9334 27.3483 26.5665 26.958 26.957C26.5675 27.3475 25.9345 27.3475 25.5439 26.957L20.7881 22.2012C18.8805 23.7915 16.4277 24.75 13.75 24.75C7.67487 24.75 2.75 19.8252 2.75 13.75C2.75 7.67486 7.67486 2.75 13.75 2.75ZM13.75 4.75C8.77943 4.75 4.75 8.77943 4.75 13.75C4.75 18.7206 8.77943 22.75 13.75 22.75C18.7206 22.75 22.75 18.7206 22.75 13.75C22.75 8.77943 18.7206 4.75 13.75 4.75Z"
-                  fill="black" />
-              </svg>
-            </div>
-          </button>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-end" id="navbarSupportedContent">
-            <div class="center-box mx-auto">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./about-us.html">
-                    <ul class="nav-link-hover">
-                      <li>about us</li>
-                      <li>about us</li>
-                    </ul>
-                  </a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle d-flex" href="properties.html" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    <ul class="nav-link-hover">
-                      <li>properties</li>
-                      <li>properties</li>
-                    </ul>
-                    <svg width="13" height="8" viewBox="0 0 13 8" fill="none" xmlns="http://www.w3.org/2000/svg"
-                      class="align-self-center">
-                      <path
-                        d="M6.44141 7.57031L5.87695 7.00586L0.564453 1.69336L0 1.12891L1.12891 0L1.69336 0.564453L6.44141 5.3457L11.1895 0.597656L11.7539 0.0332031L12.8828 1.12891L12.3184 1.69336L7.00586 7.00586L6.44141 7.57031Z"
-                        fill="white" />
-                    </svg>
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="properties.html">
-                        <div>luxury appartments</div>
-                        <div>luxury appartments</div>
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">
-                        <div>villas & bungalows</div>
-                        <div>villas & bungalows</div>
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">
-                        <div>penthouse</div>
-                        <div>penthouse</div>
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">
-                        <div>waterfront appartments</div>
-                        <div>waterfront appartments</div>
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">
-                        <div>duplexes</div>
-                        <div>duplexes</div>
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">
-                        <div>ongoing projects</div>
-                        <div>ongoing projects</div>
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">
-                        <div>row houses</div>
-                        <div>row houses</div>
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">
-                        <div>smart homes</div>
-                        <div>smart homes</div>
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="blog.html">
-                    <ul class="nav-link-hover">
-                      <li>blog</li>
-                      <li>blog</li>
-                    </ul>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">
-                    <ul class="nav-link-hover">
-                      <li>contact</li>
-                      <li>contact</li>
-                    </ul>
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div class="right-box d-flex align-items-center">
-              <button class="search-box position-relative icon-box search-box-pm">
-                <div>
-                  <svg width="25" height="25" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                      d="M13.75 2.75C19.8252 2.75 24.75 7.67487 24.75 13.75C24.75 16.4272 23.792 18.8797 22.2021 20.7871L26.958 25.543C27.3484 25.9334 27.3483 26.5665 26.958 26.957C26.5675 27.3475 25.9345 27.3475 25.5439 26.957L20.7881 22.2012C18.8805 23.7915 16.4277 24.75 13.75 24.75C7.67487 24.75 2.75 19.8252 2.75 13.75C2.75 7.67486 7.67486 2.75 13.75 2.75ZM13.75 4.75C8.77943 4.75 4.75 8.77943 4.75 13.75C4.75 18.7206 8.77943 22.75 13.75 22.75C18.7206 22.75 22.75 18.7206 22.75 13.75C22.75 8.77943 18.7206 4.75 13.75 4.75Z"
-                      fill="white" />
-                  </svg>
-                </div>
-                <div class="icon-box-hover">
-                  <svg width="25" height="25" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                      d="M13.75 2.75C19.8252 2.75 24.75 7.67487 24.75 13.75C24.75 16.4272 23.792 18.8797 22.2021 20.7871L26.958 25.543C27.3484 25.9334 27.3483 26.5665 26.958 26.957C26.5675 27.3475 25.9345 27.3475 25.5439 26.957L20.7881 22.2012C18.8805 23.7915 16.4277 24.75 13.75 24.75C7.67487 24.75 2.75 19.8252 2.75 13.75C2.75 7.67486 7.67486 2.75 13.75 2.75ZM13.75 4.75C8.77943 4.75 4.75 8.77943 4.75 13.75C4.75 18.7206 8.77943 22.75 13.75 22.75C18.7206 22.75 22.75 18.7206 22.75 13.75C22.75 8.77943 18.7206 4.75 13.75 4.75Z"
-                      fill="black" />
-                  </svg>
-                </div>
-              </button>
-              <a class="user-box position-relative icon-box" href="">
-                <div>
-                  <svg width="25" height="25" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M20.5 10.625C20.5 7.58744 18.0375 5.125 15 5.125C11.9624 5.125 9.5 7.58744 9.5 10.625C9.5 13.6625 11.9624 16.125 15 16.125C18.0375 16.125 20.5 13.6625 20.5 10.625ZM22 10.625C22 13.2609 20.5422 15.555 18.3896 16.749C21.9622 18.1142 24.5 21.5726 24.5 25.625C24.5 26.0392 24.1642 26.375 23.75 26.375C23.3358 26.375 23 26.0392 23 25.625C23 21.2067 19.4183 17.625 15 17.625C10.5817 17.625 7 21.2067 7 25.625C7 26.0392 6.66421 26.375 6.25 26.375C5.83579 26.375 5.5 26.0392 5.5 25.625C5.5 21.573 8.03725 18.1144 11.6094 16.749C9.45724 15.5549 8 13.2606 8 10.625C8 6.75901 11.134 3.625 15 3.625C18.866 3.625 22 6.75901 22 10.625Z"
-                      fill="white" />
-                  </svg>
-                </div>
-                <div href="" class="icon-box-hover">
-                  <svg width="25" height="25" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M20.5 10.625C20.5 7.58744 18.0375 5.125 15 5.125C11.9624 5.125 9.5 7.58744 9.5 10.625C9.5 13.6625 11.9624 16.125 15 16.125C18.0375 16.125 20.5 13.6625 20.5 10.625ZM22 10.625C22 13.2609 20.5422 15.555 18.3896 16.749C21.9622 18.1142 24.5 21.5726 24.5 25.625C24.5 26.0392 24.1642 26.375 23.75 26.375C23.3358 26.375 23 26.0392 23 25.625C23 21.2067 19.4183 17.625 15 17.625C10.5817 17.625 7 21.2067 7 25.625C7 26.0392 6.66421 26.375 6.25 26.375C5.83579 26.375 5.5 26.0392 5.5 25.625C5.5 21.573 8.03725 18.1144 11.6094 16.749C9.45724 15.5549 8 13.2606 8 10.625C8 6.75901 11.134 3.625 15 3.625C18.866 3.625 22 6.75901 22 10.625Z"
-                      fill="black" />
-                  </svg>
-                </div>
-              </a>
-              <a class="like-box position-relative icon-box" href="">
-                <div>
-                  <svg width="25" height="25" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M26.5 10.8682C26.5 7.78022 24.2634 5.375 21.25 5.375C19.6948 5.375 18.0619 5.85211 15.707 8.20703C15.3165 8.59756 14.6835 8.59756 14.293 8.20703C11.9381 5.85211 10.3052 5.375 8.75 5.375C5.73656 5.375 3.5 7.78022 3.5 10.8682C3.50005 13.196 5.0291 15.8199 7.18848 18.3027C9.31137 20.7435 11.8786 22.8627 13.6123 24.1592C14.4439 24.7808 15.5561 24.7808 16.3877 24.1592C18.1214 22.8627 20.6886 20.7435 22.8115 18.3027C24.9709 15.8199 26.5 13.1961 26.5 10.8682ZM28.5 10.8682C28.5 13.9655 26.5357 17.0691 24.3203 19.6162C22.0683 22.2054 19.3788 24.4201 17.5859 25.7607C16.0441 26.9136 13.9559 26.9136 12.4141 25.7607C10.6212 24.4201 7.93172 22.2054 5.67969 19.6162C3.46427 17.0691 1.50005 13.9655 1.5 10.8682C1.5 6.78408 4.52659 3.375 8.75 3.375C10.7462 3.375 12.6766 4.01621 15 6.12207C17.3234 4.01621 19.2538 3.375 21.25 3.375C25.4734 3.375 28.5 6.78408 28.5 10.8682Z"
-                      fill="white" />
-                  </svg>
-                </div>
-                <div class="icon-box-hover">
-                  <svg width="25" height="25" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M26.5 10.8682C26.5 7.78022 24.2634 5.375 21.25 5.375C19.6948 5.375 18.0619 5.85211 15.707 8.20703C15.3165 8.59756 14.6835 8.59756 14.293 8.20703C11.9381 5.85211 10.3052 5.375 8.75 5.375C5.73656 5.375 3.5 7.78022 3.5 10.8682C3.50005 13.196 5.0291 15.8199 7.18848 18.3027C9.31137 20.7435 11.8786 22.8627 13.6123 24.1592C14.4439 24.7808 15.5561 24.7808 16.3877 24.1592C18.1214 22.8627 20.6886 20.7435 22.8115 18.3027C24.9709 15.8199 26.5 13.1961 26.5 10.8682ZM28.5 10.8682C28.5 13.9655 26.5357 17.0691 24.3203 19.6162C22.0683 22.2054 19.3788 24.4201 17.5859 25.7607C16.0441 26.9136 13.9559 26.9136 12.4141 25.7607C10.6212 24.4201 7.93172 22.2054 5.67969 19.6162C3.46427 17.0691 1.50005 13.9655 1.5 10.8682C1.5 6.78408 4.52659 3.375 8.75 3.375C10.7462 3.375 12.6766 4.01621 15 6.12207C17.3234 4.01621 19.2538 3.375 21.25 3.375C25.4734 3.375 28.5 6.78408 28.5 10.8682Z"
-                      fill="black" />
-                  </svg>
-                </div>
-              </a>
-            </div>
-            <div class="header-right-box ms-auto header-right-box-md">
+            <div class="header-right-box ms-auto">
               <ul class="d-flex align-items-center">
                 <li><a href="">Stores</a></li>
                 <li><a href="">Help</a></li>
@@ -267,33 +113,685 @@
             </div>
           </div>
         </div>
-      </nav>
-    </header>
-    <section class="banner d-flex justify-content-center align-items-end">
-        <div class="bnr-desc">
-          <h1 class="title1">
-           About Us
-          </h1>
-          <div class="bnr-link">
-            <a href="index.html">Home</a>
-            <a href="about.html" class="active-link">About</a>
+        <nav class="navbar navbar-expand-lg position-relative">
+          <div class="container-big d-flex align-items-center">
+            <div class="left-box">
+              <a
+                class="navbar-brand d-flex align-items-center"
+                href="index.html"
+              >
+                <img src="./assets/images/home/logo.png" alt="" />
+              </a>
+            </div>
+            <button class="search-box position-relative icon-box search-box-sm">
+              <div>
+                <svg
+                  width="25"
+                  height="25"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M13.75 2.75C19.8252 2.75 24.75 7.67487 24.75 13.75C24.75 16.4272 23.792 18.8797 22.2021 20.7871L26.958 25.543C27.3484 25.9334 27.3483 26.5665 26.958 26.957C26.5675 27.3475 25.9345 27.3475 25.5439 26.957L20.7881 22.2012C18.8805 23.7915 16.4277 24.75 13.75 24.75C7.67487 24.75 2.75 19.8252 2.75 13.75C2.75 7.67486 7.67486 2.75 13.75 2.75ZM13.75 4.75C8.77943 4.75 4.75 8.77943 4.75 13.75C4.75 18.7206 8.77943 22.75 13.75 22.75C18.7206 22.75 22.75 18.7206 22.75 13.75C22.75 8.77943 18.7206 4.75 13.75 4.75Z"
+                    fill="white"
+                  />
+                </svg>
+              </div>
+              <div class="icon-box-hover">
+                <svg
+                  width="25"
+                  height="25"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M13.75 2.75C19.8252 2.75 24.75 7.67487 24.75 13.75C24.75 16.4272 23.792 18.8797 22.2021 20.7871L26.958 25.543C27.3484 25.9334 27.3483 26.5665 26.958 26.957C26.5675 27.3475 25.9345 27.3475 25.5439 26.957L20.7881 22.2012C18.8805 23.7915 16.4277 24.75 13.75 24.75C7.67487 24.75 2.75 19.8252 2.75 13.75C2.75 7.67486 7.67486 2.75 13.75 2.75ZM13.75 4.75C8.77943 4.75 4.75 8.77943 4.75 13.75C4.75 18.7206 8.77943 22.75 13.75 22.75C18.7206 22.75 22.75 18.7206 22.75 13.75C22.75 8.77943 18.7206 4.75 13.75 4.75Z"
+                    fill="black"
+                  />
+                </svg>
+              </div>
+            </button>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" id="navbarSupportedContent">
+              <div class="center-box mx-auto">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="./index.html"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./about-us.html">
+                      <ul class="nav-link-hover">
+                        <li>about us</li>
+                        <li>about us</li>
+                      </ul>
+                    </a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle d-flex"
+                      href="properties.html"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <ul class="nav-link-hover">
+                        <li>properties</li>
+                        <li>properties</li>
+                      </ul>
+                      <svg
+                        width="13"
+                        height="8"
+                        viewBox="0 0 13 8"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="align-self-center"
+                      >
+                        <path
+                          d="M6.44141 7.57031L5.87695 7.00586L0.564453 1.69336L0 1.12891L1.12891 0L1.69336 0.564453L6.44141 5.3457L11.1895 0.597656L11.7539 0.0332031L12.8828 1.12891L12.3184 1.69336L7.00586 7.00586L6.44141 7.57031Z"
+                          fill="white"
+                        />
+                      </svg>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="properties.html">
+                          <div>luxury appartments</div>
+                          <div>luxury appartments</div>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <div>villas & bungalows</div>
+                          <div>villas & bungalows</div>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <div>penthouse</div>
+                          <div>penthouse</div>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <div>waterfront appartments</div>
+                          <div>waterfront appartments</div>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <div>duplexes</div>
+                          <div>duplexes</div>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <div>ongoing projects</div>
+                          <div>ongoing projects</div>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <div>row houses</div>
+                          <div>row houses</div>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <div>smart homes</div>
+                          <div>smart homes</div>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="blog.html">
+                      <ul class="nav-link-hover">
+                        <li>blog</li>
+                        <li>blog</li>
+                      </ul>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">
+                      <ul class="nav-link-hover">
+                        <li>contact</li>
+                        <li>contact</li>
+                      </ul>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="right-box d-flex align-items-center">
+                <button
+                  class="search-box position-relative icon-box search-box-pm"
+                >
+                  <div>
+                    <svg
+                      width="25"
+                      height="25"
+                      viewBox="0 0 30 30"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M13.75 2.75C19.8252 2.75 24.75 7.67487 24.75 13.75C24.75 16.4272 23.792 18.8797 22.2021 20.7871L26.958 25.543C27.3484 25.9334 27.3483 26.5665 26.958 26.957C26.5675 27.3475 25.9345 27.3475 25.5439 26.957L20.7881 22.2012C18.8805 23.7915 16.4277 24.75 13.75 24.75C7.67487 24.75 2.75 19.8252 2.75 13.75C2.75 7.67486 7.67486 2.75 13.75 2.75ZM13.75 4.75C8.77943 4.75 4.75 8.77943 4.75 13.75C4.75 18.7206 8.77943 22.75 13.75 22.75C18.7206 22.75 22.75 18.7206 22.75 13.75C22.75 8.77943 18.7206 4.75 13.75 4.75Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </div>
+                  <div class="icon-box-hover">
+                    <svg
+                      width="25"
+                      height="25"
+                      viewBox="0 0 30 30"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M13.75 2.75C19.8252 2.75 24.75 7.67487 24.75 13.75C24.75 16.4272 23.792 18.8797 22.2021 20.7871L26.958 25.543C27.3484 25.9334 27.3483 26.5665 26.958 26.957C26.5675 27.3475 25.9345 27.3475 25.5439 26.957L20.7881 22.2012C18.8805 23.7915 16.4277 24.75 13.75 24.75C7.67487 24.75 2.75 19.8252 2.75 13.75C2.75 7.67486 7.67486 2.75 13.75 2.75ZM13.75 4.75C8.77943 4.75 4.75 8.77943 4.75 13.75C4.75 18.7206 8.77943 22.75 13.75 22.75C18.7206 22.75 22.75 18.7206 22.75 13.75C22.75 8.77943 18.7206 4.75 13.75 4.75Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                </button>
+                <a class="user-box position-relative icon-box" href="">
+                  <div>
+                    <svg
+                      width="25"
+                      height="25"
+                      viewBox="0 0 30 30"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M20.5 10.625C20.5 7.58744 18.0375 5.125 15 5.125C11.9624 5.125 9.5 7.58744 9.5 10.625C9.5 13.6625 11.9624 16.125 15 16.125C18.0375 16.125 20.5 13.6625 20.5 10.625ZM22 10.625C22 13.2609 20.5422 15.555 18.3896 16.749C21.9622 18.1142 24.5 21.5726 24.5 25.625C24.5 26.0392 24.1642 26.375 23.75 26.375C23.3358 26.375 23 26.0392 23 25.625C23 21.2067 19.4183 17.625 15 17.625C10.5817 17.625 7 21.2067 7 25.625C7 26.0392 6.66421 26.375 6.25 26.375C5.83579 26.375 5.5 26.0392 5.5 25.625C5.5 21.573 8.03725 18.1144 11.6094 16.749C9.45724 15.5549 8 13.2606 8 10.625C8 6.75901 11.134 3.625 15 3.625C18.866 3.625 22 6.75901 22 10.625Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </div>
+                  <div href="" class="icon-box-hover">
+                    <svg
+                      width="25"
+                      height="25"
+                      viewBox="0 0 30 30"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M20.5 10.625C20.5 7.58744 18.0375 5.125 15 5.125C11.9624 5.125 9.5 7.58744 9.5 10.625C9.5 13.6625 11.9624 16.125 15 16.125C18.0375 16.125 20.5 13.6625 20.5 10.625ZM22 10.625C22 13.2609 20.5422 15.555 18.3896 16.749C21.9622 18.1142 24.5 21.5726 24.5 25.625C24.5 26.0392 24.1642 26.375 23.75 26.375C23.3358 26.375 23 26.0392 23 25.625C23 21.2067 19.4183 17.625 15 17.625C10.5817 17.625 7 21.2067 7 25.625C7 26.0392 6.66421 26.375 6.25 26.375C5.83579 26.375 5.5 26.0392 5.5 25.625C5.5 21.573 8.03725 18.1144 11.6094 16.749C9.45724 15.5549 8 13.2606 8 10.625C8 6.75901 11.134 3.625 15 3.625C18.866 3.625 22 6.75901 22 10.625Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                </a>
+                <a class="like-box position-relative icon-box" href="">
+                  <div>
+                    <svg
+                      width="25"
+                      height="25"
+                      viewBox="0 0 30 30"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M26.5 10.8682C26.5 7.78022 24.2634 5.375 21.25 5.375C19.6948 5.375 18.0619 5.85211 15.707 8.20703C15.3165 8.59756 14.6835 8.59756 14.293 8.20703C11.9381 5.85211 10.3052 5.375 8.75 5.375C5.73656 5.375 3.5 7.78022 3.5 10.8682C3.50005 13.196 5.0291 15.8199 7.18848 18.3027C9.31137 20.7435 11.8786 22.8627 13.6123 24.1592C14.4439 24.7808 15.5561 24.7808 16.3877 24.1592C18.1214 22.8627 20.6886 20.7435 22.8115 18.3027C24.9709 15.8199 26.5 13.1961 26.5 10.8682ZM28.5 10.8682C28.5 13.9655 26.5357 17.0691 24.3203 19.6162C22.0683 22.2054 19.3788 24.4201 17.5859 25.7607C16.0441 26.9136 13.9559 26.9136 12.4141 25.7607C10.6212 24.4201 7.93172 22.2054 5.67969 19.6162C3.46427 17.0691 1.50005 13.9655 1.5 10.8682C1.5 6.78408 4.52659 3.375 8.75 3.375C10.7462 3.375 12.6766 4.01621 15 6.12207C17.3234 4.01621 19.2538 3.375 21.25 3.375C25.4734 3.375 28.5 6.78408 28.5 10.8682Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </div>
+                  <div class="icon-box-hover">
+                    <svg
+                      width="25"
+                      height="25"
+                      viewBox="0 0 30 30"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M26.5 10.8682C26.5 7.78022 24.2634 5.375 21.25 5.375C19.6948 5.375 18.0619 5.85211 15.707 8.20703C15.3165 8.59756 14.6835 8.59756 14.293 8.20703C11.9381 5.85211 10.3052 5.375 8.75 5.375C5.73656 5.375 3.5 7.78022 3.5 10.8682C3.50005 13.196 5.0291 15.8199 7.18848 18.3027C9.31137 20.7435 11.8786 22.8627 13.6123 24.1592C14.4439 24.7808 15.5561 24.7808 16.3877 24.1592C18.1214 22.8627 20.6886 20.7435 22.8115 18.3027C24.9709 15.8199 26.5 13.1961 26.5 10.8682ZM28.5 10.8682C28.5 13.9655 26.5357 17.0691 24.3203 19.6162C22.0683 22.2054 19.3788 24.4201 17.5859 25.7607C16.0441 26.9136 13.9559 26.9136 12.4141 25.7607C10.6212 24.4201 7.93172 22.2054 5.67969 19.6162C3.46427 17.0691 1.50005 13.9655 1.5 10.8682C1.5 6.78408 4.52659 3.375 8.75 3.375C10.7462 3.375 12.6766 4.01621 15 6.12207C17.3234 4.01621 19.2538 3.375 21.25 3.375C25.4734 3.375 28.5 6.78408 28.5 10.8682Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                </a>
+              </div>
+              <div class="header-right-box ms-auto header-right-box-md">
+                <ul class="d-flex align-items-center">
+                  <li><a href="">Stores</a></li>
+                  <li><a href="">Help</a></li>
+                  <li><a href="">About</a></li>
+                </ul>
+              </div>
+            </div>
           </div>
-          
+        </nav>
+      </header>
+    </div>
+    <section class="banner d-flex justify-content-center align-items-end">
+      <div class="bnr-desc">
+        <h1 class="title1">Blog</h1>
+        <div class="bnr-link">
+          <a href="index.html">Home</a>
+          <a href="blog.html" class="active-link">Blog</a>
         </div>
-      </section>
-</body>
-<!-- Bootstrap Js  -->
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-  integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
-  integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/lenis@1.3.17/dist/lenis.min.js"></script>
-<!-- Swiper JS -->
-<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
-<!-- AOS JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
-  integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
-  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="script.js"></script>
+      </div>
+    </section>
 
+    <!-- Blog List Section -->
+<section class="blog-list-sec position-relative">
+  <div class="container">
+    <div class="row">
+
+      <!-- LEFT BLOG LIST -->
+      <div class="col-12 col-xl-8">
+        
+        <!-- BLOG CARD -->
+        <div class="blog-card-wrapper" data-aos="fade-up" data-aos-delay="50">
+          <div class="blog-img">
+            <img src="./assets/images/blog/blogImg1.png" alt="blog">
+          </div>
+          <div class="blog-content">
+            <div class="blog-date">August 15, 2025</div>
+            <h3 class="title3 blog-title">The Rise of Luxury Living in Urban India</h3>
+            <p class="title-desc">
+              Discover how modern luxury homes are redefining city living with
+              premium amenities, smart architecture, and lifestyle-focused design.
+            </p>
+            <a href="#" class="blog-btn">
+              <span>view more</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- BLOG CARD -->
+        <div class="blog-card-wrapper" data-aos="fade-up" data-aos-delay="100">
+          <div class="blog-img">
+            <img src="./assets/images/blog/blogImg2.png" alt="blog">
+          </div>
+          <div class="blog-content">
+            <div class="blog-date">August 14, 2025</div>
+            <h3 class="title3 blog-title">Timeless Interiors Inspired by Global Architecture</h3>
+            <p class="title-desc">
+              Explore interior styles influenced by international design trends
+              blending elegance with contemporary functionality.
+            </p>
+            <a href="#" class="blog-btn">
+              <span>view more</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- BLOG CARD -->
+        <div class="blog-card-wrapper" data-aos="fade-up" data-aos-delay="150">
+          <div class="blog-img">
+            <img src="./assets/images/blog/blogImg3.png" alt="blog">
+          </div>
+          <div class="blog-content">
+            <div class="blog-date">August 12, 2025</div>
+            <h3 class="title3 blog-title">Sustainable Luxury: The Future of Modern Homes</h3>
+            <p class="title-desc">
+              Eco-friendly materials and energy-efficient architecture are shaping
+              the next generation of luxury residences.
+            </p>
+            <a href="#" class="blog-btn">
+              <span>view more</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- BLOG CARD -->
+        <div class="blog-card-wrapper" data-aos="fade-up" data-aos-delay="150">
+          <div class="blog-img">
+            <img src="./assets/images/blog/blogImg4.png" alt="blog">
+          </div>
+          <div class="blog-content">
+            <div class="blog-date">August 12, 2025</div>
+            <h3 class="title3 blog-title">Sustainable Luxury: The Future of Modern Homes</h3>
+            <p class="title-desc">
+              Eco-friendly materials and energy-efficient architecture are shaping
+              the next generation of luxury residences.
+            </p>
+            <a href="#" class="blog-btn">
+              <span>view more</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- BLOG CARD -->
+        <div class="blog-card-wrapper" data-aos="fade-up" data-aos-delay="150">
+          <div class="blog-img">
+            <img src="./assets/images/blog/blogImg5.png" alt="blog">
+          </div>
+          <div class="blog-content">
+            <div class="blog-date">August 12, 2025</div>
+            <h3 class="title3 blog-title">Sustainable Luxury: The Future of Modern Homes</h3>
+            <p class="title-desc">
+              Eco-friendly materials and energy-efficient architecture are shaping
+              the next generation of luxury residences.
+            </p>
+            <a href="#" class="blog-btn">
+              <span>view more</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- BLOG CARD -->
+        <div class="blog-card-wrapper" data-aos="fade-up" data-aos-delay="150">
+          <div class="blog-img">
+            <img src="./assets/images/blog/blogImg6.png" alt="blog">
+          </div>
+          <div class="blog-content">
+            <div class="blog-date">August 12, 2025</div>
+            <h3 class="title3 blog-title">Sustainable Luxury: The Future of Modern Homes</h3>
+            <p class="title-desc">
+              Eco-friendly materials and energy-efficient architecture are shaping
+              the next generation of luxury residences.
+            </p>
+            <a href="#" class="blog-btn">
+              <span>view more</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- BLOG CARD -->
+        <div class="blog-card-wrapper" data-aos="fade-up" data-aos-delay="150">
+          <div class="blog-img">
+            <img src="./assets/images/blog/blogImg7.png" alt="blog">
+          </div>
+          <div class="blog-content">
+            <div class="blog-date">August 12, 2025</div>
+            <h3 class="title3 blog-title">Sustainable Luxury: The Future of Modern Homes</h3>
+            <p class="title-desc">
+              Eco-friendly materials and energy-efficient architecture are shaping
+              the next generation of luxury residences.
+            </p>
+            <a href="#" class="blog-btn">
+              <span>view more</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- BLOG CARD -->
+        <div class="blog-card-wrapper" data-aos="fade-up" data-aos-delay="150">
+          <div class="blog-img">
+            <img src="./assets/images/blog/blogImg8.png" alt="blog">
+          </div>
+          <div class="blog-content">
+            <div class="blog-date">August 12, 2025</div>
+            <h3 class="title3 blog-title">Sustainable Luxury: The Future of Modern Homes</h3>
+            <p class="title-desc">
+              Eco-friendly materials and energy-efficient architecture are shaping
+              the next generation of luxury residences.
+            </p>
+            <a href="#" class="blog-btn">
+              <span>view more</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- BLOG CARD -->
+        <div class="blog-card-wrapper" data-aos="fade-up" data-aos-delay="150">
+          <div class="blog-img">
+            <img src="./assets/images/blog/blogImg9.png" alt="blog">
+          </div>
+          <div class="blog-content">
+            <div class="blog-date">August 12, 2025</div>
+            <h3 class="title3 blog-title">Sustainable Luxury: The Future of Modern Homes</h3>
+            <p class="title-desc">
+              Eco-friendly materials and energy-efficient architecture are shaping
+              the next generation of luxury residences.
+            </p>
+            <a href="#" class="blog-btn">
+              <span>view more</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- BLOG CARD -->
+        <div class="blog-card-wrapper" data-aos="fade-up" data-aos-delay="150">
+          <div class="blog-img">
+            <img src="./assets/images/blog/blogImg3.png" alt="blog">
+          </div>
+          <div class="blog-content">
+            <div class="blog-date">August 12, 2025</div>
+            <h3 class="title3 blog-title">Sustainable Luxury: The Future of Modern Homes</h3>
+            <p class="title-desc">
+              Eco-friendly materials and energy-efficient architecture are shaping
+              the next generation of luxury residences.
+            </p>
+            <a href="#" class="blog-btn">
+              <span>view more</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT SIDEBAR -->
+      <div class="col-12 col-xl-4">
+
+        <div class="blog-sidebar">
+
+          <!-- SEARCH -->
+          <div class="search-part">
+            <h4>search blog</h4>
+            <div class="search-box-wrapper">
+              <input type="search" placeholder="search here">
+              <button>
+                
+<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M10.7812 6.09375C10.7812 4.42383 9.87305 2.90039 8.4375 2.05078C6.97266 1.20117 5.18555 1.20117 3.75 2.05078C2.28516 2.90039 1.40625 4.42383 1.40625 6.09375C1.40625 7.79297 2.28516 9.31641 3.75 10.166C5.18555 11.0156 6.97266 11.0156 8.4375 10.166C9.87305 9.31641 10.7812 7.79297 10.7812 6.09375ZM9.87305 10.8984C8.81836 11.7188 7.5 12.1875 6.09375 12.1875C2.72461 12.1875 0 9.46289 0 6.09375C0 2.75391 2.72461 0 6.09375 0C9.43359 0 12.1875 2.75391 12.1875 6.09375C12.1875 7.5293 11.6895 8.84766 10.8691 9.90234L14.502 13.5352L15 14.0332L14.0039 15L13.5059 14.502L9.87305 10.8691V10.8984Z" fill="white"/>
+</svg>
+
+              </button>
+            </div>
+          </div>
+
+          <!-- CATEGORIES -->
+          <div class="col-3-part">
+            <div class="blog-category">
+               <h4>categories</h4>
+            <ul class="blog-cat-list">
+              <li><a href="#">architecture</a></li>
+              <li><a href="#">interior</a></li>
+              <li><a href="#">luxury homes</a></li>
+              <li><a href="#">real estate</a></li>
+              <li><a href="#">investment</a></li>
+            </ul>
+            </div>
+           
+          </div>
+
+          <!-- RECENT POSTS -->
+          <div class="col-3-part">
+            <div class="recent-posts">
+              <h4>recent post</h4>
+              <div class="recent-post-card">
+              <div class="recent-img">
+                <img src="./assets/images/blog/blogImg1.png" alt="">
+              </div>
+              <div class="recent-content">
+                <div class="recent-date">August 12, 2025</div>
+                <div class="recent-title">Luxury Villa Trends</div>
+              </div>
+            </div>
+
+            <div class="recent-post-card">
+              <div class="recent-img">
+                <img src="./assets/images/blog/blogImg2.png" alt="">
+              </div>
+              <div class="recent-content">
+                <div class="recent-date">August 10, 2025</div>
+                <div class="recent-title">Modern Facade Ideas</div>
+              </div>
+            </div>
+
+            <div class="recent-post-card">
+              <div class="recent-img">
+                <img src="./assets/images/blog/blogImg1.png" alt="">
+              </div>
+              <div class="recent-content">
+                <div class="recent-date">August 12, 2025</div>
+                <div class="recent-title">Luxury Villa Trends</div>
+              </div>
+            </div>
+
+            <div class="recent-post-card">
+              <div class="recent-img">
+                <img src="./assets/images/blog/blogImg1.png" alt="">
+              </div>
+              <div class="recent-content">
+                <div class="recent-date">August 12, 2025</div>
+                <div class="recent-title">Luxury Villa Trends</div>
+              </div>
+            </div>
+            </div>
+
+            
+
+          </div>
+
+          <!-- GALLERY -->
+          <div class="col-3-part">
+            <div class="gallery-grid">
+              <h4>gallery</h4>
+            <div class="blog-gallery">
+              <img src="./assets/images/blog/galleryImg1.png" alt="">
+              <img src="./assets/images/blog/galleryImg2.png" alt="">
+              <img src="./assets/images/blog/galleryImg3.png" alt="">
+              <img src="./assets/images/blog/galleryImg4.png" alt="">
+              <img src="./assets/images/blog/galleryImg5.png" alt="">
+              <img src="./assets/images/blog/galleryImg6.png" alt="">
+              <img src="./assets/images/blog/galleryImg7.png" alt="">
+              <img src="./assets/images/blog/galleryImg8.png" alt="">
+            </div>
+            </div>
+          </div>
+
+          <!-- TAGS -->
+          
+           <div class="col-3-part blog-tags-part">
+  <h4>tags</h4>
+
+  <ul class="blog-tags-list">
+    <li>
+      <label>
+        <input type="checkbox">
+        <span class="tag-box"></span>
+        <span class="tag-name">swimming pool</span>
+      </label>
+    </li>
+
+    <li>
+      <label>
+        <input type="checkbox">
+        <span class="tag-box"></span>
+        <span class="tag-name">gym</span>
+      </label>
+    </li>
+
+    <li>
+      <label>
+        <input type="checkbox">
+        <span class="tag-box"></span>
+        <span class="tag-name">garden</span>
+      </label>
+    </li>
+
+    <li>
+      <label>
+        <input type="checkbox">
+        <span class="tag-box"></span>
+        <span class="tag-name">parking</span>
+      </label>
+    </li>
+
+    <li>
+      <label>
+        <input type="checkbox">
+        <span class="tag-box"></span>
+        <span class="tag-name">24x7 security</span>
+      </label>
+    </li>
+
+    <li>
+      <label>
+        <input type="checkbox">
+        <span class="tag-box"></span>
+        <span class="tag-name">eco-friendly</span>
+      </label>
+    </li>
+
+    <li>
+      <label>
+        <input type="checkbox">
+        <span class="tag-box"></span>
+        <span class="tag-name">designer interiors</span>
+      </label>
+    </li>
+  </ul>
+</div>
+        
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- decorative elements (your style) -->
+  <div class="section-element-1 element-1">
+    <img src="./assets/images/blog/Rotate.png" alt="">
+  </div>
+  <div class="section-element-2 element-1">
+    <img src="./assets/images/blog/Memphis.png" alt="">
+  </div>
+
+</section>
+  </body>
+  <!-- Bootstrap Js  -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+    integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://unpkg.com/lenis@1.3.17/dist/lenis.min.js"></script>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+  <!-- AOS JS -->
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+    integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script src="script.js"></script>
 </html>
