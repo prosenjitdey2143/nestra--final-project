@@ -1,102 +1,226 @@
-.banner {
-  min-height: 850px;
-  position: relative;
-  background: url(../assets/images/home/banner.png) no-repeat center;
-}
+/*==============================
+Banner Section
+================================*/
 
-.bnr-desc {
+.banner-sec {
+  background: url("../assets/images/home/banner.png") no-repeat center/cover;
+  padding: 350px 0 100px;
+}
+.banner-content {
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 100px;
-  padding-inline: 15px;
 }
-
-.bnr-desc .title1 {
-  max-width: 1008px;
-  line-height: 0.8;
-  margin-bottom: 50px;
+.banner-subtitle {
+  max-width: 440px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
-
-.bnr-desc>.title1 .visible-window {
+.banner-sec .primary-btn {
+  margin: auto;
+}
+.title1 > span {
+  display: block;
+  background: linear-gradient(to bottom, var(--bg-black), var(--primary-color));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: normal;
+}
+.title1 .visible-window {
   display: inline-block;
-  height: 78px;
+  height: 80px;
   overflow: hidden;
   animation: h1-scroll 6s ease infinite;
 }
 
-.bnr-desc>.title1 .scroll-text {
+.title1 .scroll-text {
   animation: heading-scroll 6s ease infinite;
   width: fit-content;
   color: var(--secondary-color);
 }
-
 @keyframes heading-scroll {
   0% {
     transform: translateY(0);
   }
-
   40% {
-    transform: translateY(-75px);
+    transform: translateY(-82px);
   }
-
   80% {
-    transform: translateY(-148px);
+    transform: translateY(-164px);
   }
-
   100% {
     transform: translateY(0);
   }
 }
-
 @keyframes h1-scroll {
   0% {
     width: 208.4px;
   }
-
   40% {
     width: 252.5px;
   }
-
   80% {
     width: 350px;
   }
-
   100% {
     width: 208.4px;
   }
 }
-
-.bnr-desc p {
+.title1 ul > li {
   color: var(--secondary-color);
-  margin-bottom: 60px;
+  width: fit-content;
 }
+/*==============================
+Banner Responsive
+================================*/
 
-.bnr-left-dsgn {
-  width: clamp(70px, 20vw, 163px);
-  height: 63px;
-  position: absolute;
-  bottom: 35px;
-  left: 0px;
+@media screen and (max-width: 1200px) {
+  @keyframes heading-scroll {
+    0% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-66px);
+    }
+    80% {
+      transform: translateY(-132px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  @keyframes h1-scroll {
+    0% {
+      width: 166.73px;
+    }
+    40% {
+      width: 202px;
+    }
+    80% {
+      width: 280px;
+    }
+    100% {
+      width: 166.73px;
+    }
+  }
+  .title1 .visible-window {
+    height: 64px;
+  }
 }
-
-.bnr-right-dsgn {
-  width: clamp(120px, 30vw, 357px);
-  height: 179px;
-  position: absolute;
-  bottom: 100px;
-  right: -50px;
+@media screen and (max-width: 992px) {
+  @keyframes heading-scroll {
+    0% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-50px);
+    }
+    80% {
+      transform: translateY(-100px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  @keyframes h1-scroll {
+    0% {
+      width: 125.05px;
+    }
+    40% {
+      width: 151.5px;
+    }
+    80% {
+      width: 210px;
+    }
+    100% {
+      width: 125.05px;
+    }
+  }
+  .title1 .visible-window {
+    height: 48px;
+  }
 }
-
-.bnr-left-dsgn>img,
-.bnr-right-dsgn>img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
+@media screen and (max-width: 768px) {
+  @keyframes heading-scroll {
+    0% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-42px);
+    }
+    80% {
+      transform: translateY(-84px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  @keyframes h1-scroll {
+    0% {
+      width: 104.2px;
+    }
+    40% {
+      width: 126.25px;
+    }
+    80% {
+      width: 175px;
+    }
+    100% {
+      width: 104.2px;
+    }
+  }
+  .title1 .visible-window {
+    height: 40px;
+  }
 }
-
+@media screen and (max-width: 576px) {
+  .banner-sec {
+    padding: 350px 0 45px;
+  }
+  .banner-subtitle {
+    margin: 25px auto 30px;
+  }
+  .banner-subtitle {
+    font-size: 14px;
+  }
+  @keyframes heading-scroll {
+    0% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-38px);
+    }
+    80% {
+      transform: translateY(-76px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  @keyframes h1-scroll {
+    0% {
+      width: 94px;
+    }
+    40% {
+      width: 114px;
+    }
+    80% {
+      width: 158px;
+    }
+    100% {
+      width: 94px;
+    }
+  }
+  .title1 .visible-window {
+    height: 36px;
+    margin-top: 10px;
+    display: block;
+    margin: auto;
+    transform: translateY(5px);
+  }
+  .title1 > span {
+    transform: translateY(-5px);
+  }
+}
 /* shop-by-category-sec ==============*/
 .shop-by-category-sec {
   padding: 60px 0;

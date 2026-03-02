@@ -182,6 +182,22 @@ AOS.init({
   once: true,
 });
 
+// Our Clients Slider
+
+var swiper3 = new Swiper(".mySwiper3", {
+  slidesPerView: 1,
+  effect: "fade",
+  fadeEffect: {
+    crossFade: true,
+  },
+  loop: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  speed: 800,
+});
+
 // Shop By Category Slider
 
 var swiper = new Swiper(".mySwiper", {
